@@ -12,3 +12,7 @@ $(function() {
         $(this).find('.project-category').show();
     })
 })
+
+var date = new Date();
+var year = date.getFullYear();
+document.getElementById("copyright-year").innerHTML = year;

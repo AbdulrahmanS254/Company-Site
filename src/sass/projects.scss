@@ -1,0 +1,58 @@
+@import "./variable.scss";
+
+section.banner {
+    #banner-img {
+        background-image: url(../images/projects-banner.jpg);
+        background-position: 50% 10%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        height: 250px;
+    }
+    .overlay {
+            position: absolute;
+            background-color: rgba(45, 48, 71, 0.6);
+            top: 0;
+            right: 0;
+            height: 100%;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            h1.projects-title {
+                font-weight: bold;
+                color: #fff;
+            }
+        }
+}
+
+section.our-work {
+    .card {
+        border-radius: 0;
+        border-color: #eee;
+        height: 22.5rem;
+        img {
+            border-radius: 0;
+        }
+        .custom-btn-3{
+            position: absolute;
+            left: 1em;
+            top: 1em;
+            font-size: small;
+            font-weight: bold;
+            border-color: rgba(255, 255, 255, 0.5);
+            background-color: rgba(255, 255, 255, 0.5);
+            &:hover {
+                background-color: rgba(244, 116, 59, 0.5);
+            }
+        }
+        p {
+            margin-bottom: 2rem;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+        
+    }
+}

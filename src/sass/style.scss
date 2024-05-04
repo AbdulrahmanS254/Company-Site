@@ -1,4 +1,6 @@
 @import "bootstrap/scss/bootstrap";
+@import "./variable";
+@import "./projects.scss";
 
 @font-face {
     font-family: "Quicksand";
@@ -9,9 +11,6 @@
     font-family: "jersey";
     src: url(../fonts/Orbitron-VariableFont_wght.ttf);
 }
-
-$main-color: #2D3047;
-$sec-color: #F4743B;
 
 body {
     background-color: #fcfcfc;
@@ -105,6 +104,9 @@ section.top-menu {
                     background-color: #a4a4a41f;
                     border-bottom: 1px solid $main-color;
                 }
+            }
+            li>a.active {
+                border-bottom: 1px solid $sec-color;
             }
         }
     }
@@ -550,7 +552,7 @@ footer {
 
                 &:hover {
                     color: #000;
-                    background-color: #ff5912;
+                    background-color: #EEE;
                 }
             }
         }

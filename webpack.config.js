@@ -58,6 +58,10 @@ module.exports = {
       template: "./src/projects.html",
       filename: "projects.html",
     }),
+    new HtmlWebpackPlugin({
+      template: "./src/project-details.html",
+      filename: "project-details.html",
+    }),
     new MiniCssExtractPlugin({
       filename: "css/style.css",
     }),
@@ -68,7 +72,7 @@ module.exports = {
       directory: path.join(__dirname, "build"),
     },
     compress: true,
-    port: 9000,
+    port: 9008,
     devMiddleware: {
       writeToDisk: true,
     },

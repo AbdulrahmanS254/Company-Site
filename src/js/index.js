@@ -1,6 +1,6 @@
 window.bootstrap = require("bootstrap/dist/js/bootstrap.bundle.js");
 import "../sass/style.scss";
-import "@fortawesome/fontawesome-free/js/all.js"
+import "@fortawesome/fontawesome-free/js/all.js";
 
 $(function() {
     $('.thumbnail-2').hover(function() {

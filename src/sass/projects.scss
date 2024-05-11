@@ -111,6 +111,17 @@ section.details {
         }
     }
 
+    .card {
+        .card-body {
+            .card-title {
+                font-weight: 800;
+                color: $main-color;
+            }
+            .card-text {
+                text-align: justify;
+            }
+        }
+    }
 }
 
 /*===============MEDIA QUERIES==============*/

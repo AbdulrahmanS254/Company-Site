@@ -1,0 +1,58 @@
+@import "./variable";
+
+section.banner-blog {
+    #banner-img {
+        background-image: url(../images/banner-blog.jpg);
+    }
+}
+
+section.posts {
+    .search-box {
+        padding: 1em;
+        margin-top: 5px;
+        box-shadow: 0px 1px 1px 1px #fcfcfc;
+        border: 2px solid #eee;
+    }
+    form {
+        .custom-form-control {
+            border-radius: 0%;
+            background-color: #e4e4e4;
+            color: #000;
+            box-shadow: none;
+            border: none;
+        }
+
+        .custom-search-button {
+            border-radius: 0%;
+            border: none;
+            color: #fff;
+            background-color: $main-color;
+            transition: all 0.3s ease-in-out;
+
+            &:hover {
+                color: #000;
+                background-color: $sec-color;
+            }
+        }
+    }
+}
+
+@media (max-width: 767.8px) {
+    section.posts {
+        .card {
+            .custom-btn-2 {
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media (min-width: 767.8px) {
+    section.posts {
+        .card {
+            img {
+                max-height: 190px;
+            }
+        }
+    }
+}

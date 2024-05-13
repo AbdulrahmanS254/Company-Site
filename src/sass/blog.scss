@@ -13,6 +13,7 @@ section.posts {
         box-shadow: 0px 1px 1px 1px #fcfcfc;
         border: 2px solid #eee;
     }
+
     form {
         .custom-form-control {
             border-radius: 0%;
@@ -37,12 +38,94 @@ section.posts {
     }
 }
 
+
+/* =======blog-details page======= */
+section.posts-details {
+    .card {
+        .card-img-top {
+            height: 400px;
+            object-fit: cover;
+        }
+
+        .card-body {
+
+            .card-title {
+                font-weight: 800;
+            }
+
+            p {
+                color: #777777;
+                text-align: justify;
+            }
+        }
+    }
+}
+
+.social-blog {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #777777;
+    font-size: 2rem;
+    float: left;
+    margin-left: 0.5em;
+}
+
+.social-blog.linkedin {
+    transition: all 0.3s ease;
+
+    &:hover,
+    &:focus {
+        color: #0A66C2;
+    }
+}
+
+.social-blog.facebook {
+    transition: all 0.3s ease;
+
+    &:hover,
+    &:focus {
+        color: #0866FF;
+    }
+}
+
+.social-blog.twitter {
+    transition: all 0.3s ease;
+
+    &:hover,
+    &:focus {
+        color: #1D9BF0;
+    }
+}
+
+/*=========Add Post Page==========*/
+section.add-blog {
+    label {
+        font-weight: 700;
+        margin-bottom: 0.25em;
+    }
+
+    .form-control {
+        &:focus {
+            border-color: $sec-color;
+            outline: 0;
+            box-shadow: 0 0 0 0.06rem $sec-color;
+        }
+    }
+}
+
+
 @media (max-width: 767.8px) {
     section.posts {
         .card {
             .custom-btn-2 {
                 width: 100%;
             }
+        }
+    }
+    section.add-blog {
+        button.custom-btn {
+            width: 100%;
         }
     }
 }

@@ -1,0 +1,50 @@
+section.banner {
+
+    #banner-img {
+        background-image: url(../images/banner-contact.jpg);
+        background-position: 50% 40%;
+    }
+
+}
+
+section.contactus {
+    .contact-info {
+        ul.info {
+            list-style: none;
+            padding-left: 0;
+            li {
+                margin-bottom: 0.6rem;
+                span {
+                    color: $sec-color;
+                    margin-right: 0.5rem;
+                }
+            }
+        }
+    }
+
+    .contact-links {
+        h4 {
+            margin-bottom: 1rem;
+        }
+        .social-icons {
+            list-style: none;
+            padding: 0;
+            li {
+                display: inline-block;
+                &:not(:last-child){
+                    margin-right: 1em;
+                }
+                a {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border: 1px solid #777777;
+                    border-radius: 1.4rem;
+                    width: 2.8rem;
+                    height: 2.8rem;
+                    color: #777777;
+                }
+            }
+        }
+    }
+}

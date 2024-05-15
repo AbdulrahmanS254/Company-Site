@@ -2,6 +2,8 @@
 @import "./variable";
 @import "./projects.scss";
 @import "./blog.scss";
+@import "./about.scss";
+@import "./contact.scss";
 
 @font-face {
     font-family: "Quicksand";
@@ -106,6 +108,7 @@ section.top-menu {
                     border-bottom: 1px solid $main-color;
                 }
             }
+
             li>a.active {
                 border-bottom: 1px solid $sec-color;
             }
@@ -419,6 +422,7 @@ section.latest-blogs {
             max-height: 143px;
             object-fit: cover;
         }
+
         h5 {
             border-bottom: 1px solid #eee;
             padding-bottom: 8px;
@@ -445,7 +449,8 @@ a.unique {
     position: relative;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
 
-    &::after, &::before {
+    &::after,
+    &::before {
         content: "";
         position: absolute;
         border-bottom: 3px solid $sec-color;
@@ -468,6 +473,7 @@ a.unique {
     &:hover::before {
         transform: scaleX(0.3);
     }
+
     &:hover::after {
         transform: translateX(0);
     }
@@ -479,6 +485,7 @@ footer {
     h1 {
         color: #eee;
         font-family: "jersey", 'Times New Roman', Times, serif;
+
         &::after {
             display: block;
             content: "";
@@ -491,6 +498,7 @@ footer {
             left: 50%;
             transform: translateX(-50%);
         }
+
         span {
             color: $sec-color;
         }
@@ -502,10 +510,12 @@ footer {
             text-decoration: none;
             color: #bbbbbb;
             font-size: 1em;
+
             &:hover {
                 color: #fff;
             }
         }
+
         a:not(:first-child) {
             margin-left: 2em;
         }
@@ -528,6 +538,7 @@ footer {
             font-size: 1.5rem;
             color: #eee;
         }
+
         form {
             width: 50%;
             margin-left: 25%;
@@ -539,6 +550,7 @@ footer {
                 border-color: #bbbbbb;
                 box-shadow: none;
                 border: none;
+
                 &::placeholder {
                     color: #bbbbbb;
                 }

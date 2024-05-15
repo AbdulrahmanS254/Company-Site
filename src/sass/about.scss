@@ -1,0 +1,84 @@
+section.banner {
+    #banner-img {
+        background-image: url(../images/banner-about.jpg);
+    }
+}
+
+section.employees {
+    .card {
+        margin-bottom: 1.8rem;
+        .card-image-custom {
+            margin-bottom: 1rem;
+        }
+        p.employee-specialization {
+            color: #777777;
+        }
+        hr.card-line {
+            width: 20%;
+            color: $sec-color;
+            margin-left: 40%;
+            opacity: 1 !important;
+        }
+        p.card-text {
+            color: #777777;
+            font-weight: 600;
+        }
+
+        .card-links {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .social-icons {
+                list-style: none;
+                padding: 0;
+                li {
+                    display: inline-block;
+                    &:not(:last-child){
+                        margin-right: 1em;
+                    }
+                    a {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        border: 1px solid #777777;
+                        border-radius: 5px;
+                        width: 2.5rem;
+                        height: 2.5rem;
+                        color: #777777;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+.icon-link.linkedin {
+    transition: all 0.3s ease;
+
+    &:hover,
+    &:focus {
+        background-color: #0A66C2;
+        color: #fff !important;
+    }
+}
+
+.icon-link.facebook {
+    transition: all 0.3s ease;
+
+    &:hover,
+    &:focus {
+        background-color: #0866FF;
+        color: #fff !important;
+    }
+}
+
+.icon-link.twitter {
+    transition: all 0.3s ease;
+
+    &:hover,
+    &:focus {
+        background-color: #1D9BF0;
+        color: #fff !important;
+    }
+}

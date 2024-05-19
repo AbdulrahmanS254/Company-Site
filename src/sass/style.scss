@@ -111,6 +111,7 @@ section.top-menu {
 
             li>a.active {
                 border-bottom: 1px solid $sec-color;
+                color: $sec-color;
             }
         }
     }

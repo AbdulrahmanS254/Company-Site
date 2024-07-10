@@ -1,9 +1,6 @@
 <!-- Getting Started -->
 ## 	:toolbox: How to use
 
-<!-- Prerequisites -->
-### :bangbang: Prerequisites
-
 This project uses npm as a package manager
 
 ```bash

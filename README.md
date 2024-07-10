@@ -1,17 +1,17 @@
 <!-- Getting Started -->
-## 	:toolbox: Getting Started
+## 	:toolbox: How to use
 
 <!-- Prerequisites -->
 ### :bangbang: Prerequisites
 
-This project uses node.js as a package manager
+This project uses npm as a package manager
 
 ```bash
  npm install
 ```
 
 <!-- Installation -->
-### :gear: Installation
+### :gear: Running the project
 
 View the project on a local server with npm
 

@@ -4,19 +4,18 @@
 <!-- Prerequisites -->
 ### :bangbang: Prerequisites
 
-This project uses Yarn as package manager
+This project uses node.js as a package manager
 
 ```bash
- npm install --global yarn
+ npm install
 ```
 
 <!-- Installation -->
 ### :gear: Installation
 
-Install my-project with npm
+View the project on a local server with npm
 
 ```bash
-  yarn install my-project
-  cd my-project
+  npm run dev
 ```
    
